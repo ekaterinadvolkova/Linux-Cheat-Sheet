@@ -11,6 +11,7 @@ Command                     | Meaning      | Possible Output
 `passwd`  | Password change |
 `whoami` |username |
 `date +%R`; `date +%x`| Time and date| 19:13 <br> 03/29/2022
+`date +%r` |Current time in 12-hour clock time |
 `file /etc/passwd` | Scan file content and return what type the content is | ASCII
 `cat /etc/passwd` <br> `cat file 1 file 2` | * Create a file in the folder<br> * Concatenate the contents from multiple files <br> * Redirect contents of the file to a terminal or files. |
 `head` and `tail` | Display the beginning and the end of a file |
