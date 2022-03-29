@@ -4,12 +4,16 @@ Based on the material provided by Read Hat in [Red Hat System Administration I](
 
 ## Essential CLI commands
 
-Command                     | Meaning
---------------------------- | -------------
-`ssh remoteuser@remotehost` | virtually login
-`exit`  | Logout
-`passwd`  | Password change
-`whoami` |username
+Command                     | Meaning      | Possible Output
+--------------------------- | -------------|-----------
+`ssh remoteuser@remotehost` | virtually login |
+`exit`  | Logout |
+`passwd`  | Password change |
+`whoami` |username |
+`date +%R`; `date +%x`| Time and date| 19:13 <br> 03/29/2022
+`file /etc/passwd`| Scan file content and return what type the content is | ASCII
+
+
 
 
 ## Shortcuts
