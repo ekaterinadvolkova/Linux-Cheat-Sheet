@@ -17,6 +17,16 @@ Command                     | Meaning      | Possible Output
 `head` and `tail` | Display the beginning and the end of a file |
 `wc` | * Counts lines, words, characters <br> * `-l`, `-w`, or `-c` option to display only the number of lines, words, or characters, respectively. |
 `history` | List of previously executed commands |
+`cd ..` | cd .. command uses the .. hidden directory to move up one level to the parent directory
+`mkdir` | Create a directory
+`cp file new-file` |Copy file
+`cp -r directory new-directory` |Copy directory and its contents
+`mv file new-file` | Move or rename a file or directory
+`rm file` | Remove a file
+`rm -r directory` | Remove a directory containing files
+`rmdir directory` | Remove an empty directory
+
+
 
 
 ## Shortcuts
