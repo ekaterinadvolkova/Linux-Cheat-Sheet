@@ -28,6 +28,9 @@ Command                     | Meaning      | Possible Output
 `ls -al` | Redirect all contents to a file named e.g. 'editing_final_lab'| `ls -al > editing_final_lab.txt`
 `vim` | edit file using vim | `vim editing_final_lab.txt` 
 `echo` | Append to a file | `echo " ---"`
+`man` | Display the user manual of any command that we can run on the terminal
+`pinfo` | Launch info document viewer
+
 
 ## Shortcuts
 
