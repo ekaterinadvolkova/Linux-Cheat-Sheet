@@ -25,9 +25,9 @@ Command                     | Meaning      | Possible Output
 `rm file` | Remove a file
 `rm -r directory` | Remove a directory containing files
 `rmdir directory` | Remove an empty directory
-
-
-
+`ls -al` | Redirect all contents to a file named e.g. 'editing_final_lab'| `ls -al > editing_final_lab.txt`
+`vim` | edit file using vim | `vim editing_final_lab.txt` 
+`echo` | Append to a file | `echo " ---"`
 
 ## Shortcuts
 
@@ -42,9 +42,12 @@ Ctrl+K | Clear from the cursor to the end of the command line.
 Ctrl+LeftArrow | Jump to the beginning of the previous word on the command line.
 Ctrl+RightArrow | Jump to the end of the next word on the command line.
 Ctrl+R | Search the history list of commands for a pattern.
+Ctrl+V | Enter line-based visual mode
+x | Delete
+v | Select characters on single-line only
 
 ## Important
 * If you want to type more than one command on a single line, use the semicolon `;`;
 * `\`  to ignore the meaning of the character;
 * `!` is a metacharacter that is used to expand previous commands without having to retype them;
-* 
+*  
