@@ -30,6 +30,9 @@ Command                     | Meaning      | Possible Output
 `echo` | Append to a file | `echo " ---"`
 `man` | Display the user manual of any command that we can run on the terminal
 `pinfo` | Launch info document viewer
+`ls -l` / `ls -ld`| View the owner of a file / view the owner of a directory
+`su` | Switch user
+
 
 
 ## Shortcuts
